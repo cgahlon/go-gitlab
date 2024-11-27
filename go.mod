@@ -1,4 +1,5 @@
 module github.com/cgahlon/go-gitlab
+replace github.com/xanzy/go-gitlab => github.com/cgahlon/go-gitlab@v1.114.1
 
 go 1.19
 
