@@ -1,5 +1,3 @@
-module github.com/xanzy/go-gitlab
-
 go 1.19
 
 require (
@@ -20,3 +18,5 @@ require (
 	google.golang.org/protobuf v1.29.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+module github.com/cgahlon/go-gitlab
