@@ -1,3 +1,5 @@
+module github.com/cgahlon/go-gitlab
+
 go 1.19
 
 require (
@@ -5,6 +7,7 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-retryablehttp v0.7.7
 	github.com/stretchr/testify v1.8.1
+	github.com/cgahlon/go-gitlab v1.114.0
 	golang.org/x/oauth2 v0.6.0
 	golang.org/x/time v0.3.0
 )
@@ -19,4 +22,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-module github.com/cgahlon/go-gitlab
